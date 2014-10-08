@@ -1,4 +1,6 @@
-Global $CLICKS = 60 					;Clicks per click round
+Const $VERSION = "1.0.0"
+
+Const $CLICKS = 60 						;Clicks per click round
 
 Global $g_run = True 					;Run script while True
 Global $g_paused = False				;Pause script while True
