@@ -5,7 +5,7 @@ Const $CLICKS = 60                        ;Clicks per click round
 Global $g_run = True                      ;Run script while True
 Global $g_paused = False                  ;Pause script while True
 
-HotKeySet("+!{PAUSE}", "Toggle_Pause")    ;Alt+Shift+Pause
+HotKeySet("^{PAUSE}", "Toggle_Pause")     ;Ctrl+Pause
 HotKeySet("+!{END}", "Shut_Down")         ;Alt+Shift+End
 
 Main()
